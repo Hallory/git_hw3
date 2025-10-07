@@ -1,0 +1,67 @@
+    1  git clone [200~https://github.com/Archakov06/react-beginner-projects.git~
+    2  git clone https://github.com/Archakov06/react-beginner-projects.git
+    3  git copy https://github.com/Archakov06/react-beginner-projects.git
+    4  git clone https://github.com/Archakov06/react-beginner-projects.git\
+    5  git clone https://github.com/Archakov06/react-beginner-projects.git~
+    6  git clone https://github.com/Archakov06/react-beginner-projects.git
+    7  cd gir1
+    8  cd git1
+    9  git init 
+   10  git add README.md
+   11  git add icons_for_avatars.jpg
+   12  echo "# git_hw1" >> README.md
+   13  git add .
+   14  git commit -m "first commit"
+   15  git branch -M main
+   16  git remote add origin https://github.com/Hallory/git_intro.git
+   17  git push -u origin main
+   18  cd ./
+   19  cd ../
+   20  cd git_branches
+   21  git init 
+   22  git add .
+   23  git commit -m "First commit" 
+   24  git branch -M main 
+   25  git remote add origin https://github.com/Hallory/git_branches.git
+   26  git push -u origin main
+   27  rm -rf .git
+   28  git init 
+   29  git checkout gitignore
+   30  git checkout -b gitignore
+   31  git add .
+   32  git commit -m "Add .gitignore file"
+   33  git remote add origin https://github.com/Hallory/git_branches.git
+   34  git push -u origin gitignore
+   35  cd ../
+   36  cd git_hw3
+   37  git init 
+   38  echo "# git_hw3" >> .gitignore
+   39  git add .
+   40  git commit -m "First commit" 
+   41  git branch -M main
+   42  git remote add origin https://github.com/Hallory/git_hw3.git
+   43  git push -u origin main
+   44  cd ../
+   45  git copy https://github.com/Hallory/git_hw3.git
+   46  git clone https://github.com/Hallory/git_hw3.git
+   47  cd git_hw3
+   48  git checkout feature
+   49  git checkout -b feature 
+   50  echo "# git_hw3" >> README.md
+   51  git commit "add readme.md" 
+   52  git commit "add README.md" 
+   53  git add README.md
+   54  git commit -m "Add README.md" || true
+   55  git push -u origin feature
+   56  git checkout main -- .gitignore
+   57  echo -e "\n# added in feature branch" >> .gitignore
+   58  echo -e "\nFeature branch edit" >> README.md
+   59  git add .gitignore README.md
+   60  git commit -m "Update README and .gitignore"
+   61  git commit --amend -m "Update README and .gitignore (ammend)"
+   62  git push --force-with-lease origin feature
+   63  git switch main 
+   64  git pull origin main 
+   65  git merge feature --no-ff -m "Merge feature into main"
+   66  git push origin main
+   67  history > history.txt 2>/dev/null || fc -ln -2147483648 > history.txt
